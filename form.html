@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="#" class="form">
+            <div class="form-top">
+                <a class="form-back-btn" href="index.html">
+                    <img src="img/back.svg" alt="">
+                </a>
+            </div>
+            <fieldset>
+                <legend>Введите Ваши данные</legend>
+                <input type="text" class="form-input" name="fname" placeholder="Имя">
+                <input type="text" class="form-input" name="sname" placeholder="Фамилия">
+            </fieldset>
+
+            <p class="form-text">Ваш пол</p>
+            <div class="input-wrapper">
+                <label>
+                    <input type="radio" name="gender" value="male" id="male-radio">
+                    М
+                </label>
+                <label class="label-radio">
+                    <input type="radio" name="gender" value="female" id="female-radio">
+                    Ж
+                </label>
+            </div>
+
+            <div class="input-wrapper">
+                <input type="checkbox" id="age" name="age" value="got18">
+                <label for="age"> Мне есть 18</label>
+            </div>
+
+            <label for="subject">Выберите курс</label>
+            <select class="form-select" name="subject" id="subject">
+                <option value="Front-end">Front-end</option>
+                <option value="Web-design">Web design</option>
+                <option value="Graphic-design">Графический дизайн</option>
+            </select>
+
+
+            <textarea class="form-textarea" name="message" placeholder="Дополнительная информация"></textarea>
+            <div class="form-btn-wrapper">
+                <button href="#" class="form-btn" type="submit">Отправить заявку</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

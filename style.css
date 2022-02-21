@@ -1,0 +1,402 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 31px;
+    color: #ffa755;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-size: 20px;
+    line-height: 26px;
+    background-color: #222222;
+}
+
+.header-top {
+    background: #222222;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.25);
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 20px;
+    padding: 13px 0 13px;
+}
+
+.menu {
+    float: right;
+    transform: translateY(20px);
+}
+
+.menu-list__item {
+    margin-left: 35px;
+    display: inline-block;
+}
+
+.header {
+    height: 650px;
+    background-image: url("img/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-title {
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 67px;
+    max-width: 758px;
+    padding-top: 100px;
+    margin-bottom: 25px;
+}
+
+.header-text {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+
+    max-width: 335px;
+}
+
+.header-btn {
+    margin-top: 25px;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 23px;
+    padding: 19px 46px;
+    background-color: #ffa755;
+    display: inline-block;
+    /*очень важно иначе маржины не работают*/
+}
+
+.advantages {
+    padding: 100px 0;
+}
+
+.advantages-cards {
+    text-align: center;
+}
+
+.advantages-card {
+    display: inline-block;
+    width: 22%;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.advantages-card__img {
+    margin-bottom: 15px;
+}
+
+.advantages-card__text {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.subject-content {
+    background: #222222;
+    box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.6);
+    padding: 50px 0;
+}
+
+.subject-card__description,
+.subject-card__img {
+    display: inline-block;
+    width: 49%;
+    min-height: 300px;
+}
+
+.subject-card__description {
+    vertical-align: top;
+    padding: 22px 0 0 22px;
+}
+.subject-card__img--1 {
+    background-image: url("img/subject-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.subject-card__img--2 {
+    background-image: url("img/subject-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.subject-card__img--3 {
+    background-image: url("img/subject-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.subject-card__title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+
+hr {
+    width: 190px;
+    height: 5px;
+    border: none;
+    background-color: #1a83ff;
+    margin-bottom: 20px;
+}
+
+.offer {
+    padding: 100px 0;
+}
+
+.info {
+    padding: 0 0 100px 0;
+    text-align: center;
+}
+
+.info-btn {
+    margin-top: 25px;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 23px;
+    padding: 19px 46px;
+    background-color: transparent;
+    border: 2px solid #1a83ff;
+    color: #1a83ff;
+    display: inline-block;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.info-text,
+.offer-text {
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.form {
+    width: 100%;
+    background: #222222;
+    box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.6);
+    padding: 150px 60px 50px;
+}
+
+.form-top {
+    background-color: #1a83ff;
+    height: 80px;
+    margin-bottom: 150px;
+}
+
+.form-input {
+    display: block;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #ffa755;
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    outline: none;
+    color: #ffa755;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+fieldset {
+    padding: 0 36px;
+    border: 2px solid #ffa755;
+    margin-bottom: 60px;
+}
+
+legend {
+    padding: 25px;
+    margin: 0 20px 0 118px;
+}
+
+.form-btn {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 23px;
+    padding: 19px 46px;
+    background-color: #1a83ff;
+    display: inline-block;
+    color: #fff;
+}
+
+.form-textarea {
+    min-height: 208px;
+    padding: 20px;
+    background: transparent;
+    border: 2px solid #ffa755;
+    width: 100%;
+    margin: 78px 0 50px;
+    outline: none;
+    font-size: 18px;
+    line-height: 23px;
+    resize: none;
+    color: #ffa755;
+}
+
+.form-textarea::placeholder,
+.form-input::placeholder {
+    font-size: 18px;
+    line-height: 23px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.form-text {
+    margin-bottom: 20px;
+}
+
+.label-radio {
+    margin-left: 30px;
+}
+
+.input-wrapper {
+    margin-bottom: 40px;
+}
+
+.form-select {
+    background-color: #ffffff;
+    border-radius: 7px;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    padding: 10px;
+    width: 180px;
+    margin-left: 30px;
+    outline: none;
+}
+
+.form-btn-wrapper {
+    text-align: center;
+}
+
+@media (max-width: 850px) {
+    .advantages-card {
+        display: inline-block;
+        width: 45%;
+        margin-bottom: 30px;
+        vertical-align: middle;
+    }
+}
+
+@media (max-width: 740px) {
+    .header-title {
+        font-size: 30px;
+        line-height: 37px;
+        max-width: 100%;
+        padding-top: 50px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 630px) {
+    .subject-card__description,
+    .subject-card__img {
+        display: block;
+        width: 100%;
+        min-height: 300px;
+    }
+
+    .subject-card {
+        margin-bottom: 100px;
+    }
+
+    .form {
+        padding: 50px 10px 50px;
+    }
+
+    legend {
+        padding: 10px;
+        margin: 0;
+    }
+    fieldset {
+        padding: 0 15px;
+    }
+
+    .form-top {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 500px) {
+    .menu {
+        float: none;
+    }
+
+    .menu-list__item {
+        display: block;
+        margin: 15px 0 15px 0;
+        padding: 10px;
+    }
+
+    .menu-list__link {
+        font-size: 20px;
+    }
+
+    .advantages-card {
+        margin-left: 0;
+        width: 100%;
+        display: block;
+    }
+
+    .header-text {
+        max-width: 100%;
+    }
+
+    .header-title {
+        font-size: 25px;
+        line-height: 32px;
+        max-width: 100%;
+        padding-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .header-btn {
+        margin-top: 10px;
+    }
+
+    .form-select {
+        display: block;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .form-textarea {
+        margin-top: 50px;
+    }
+    .form-btn {
+        padding: 20px;
+        width: 100%;
+    }
+}
